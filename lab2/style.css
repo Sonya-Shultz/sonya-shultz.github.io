@@ -1,0 +1,84 @@
+html,body{
+    overflow: hidden;
+    margin: 0;
+    padding: 20px;
+}
+td{
+    height: 2vh;
+}
+#r1{
+    background-color: #808f8f;
+    color:#1227DE;
+}
+#r1:hover{
+    background-color: #F3D1BF;
+}
+#r2{
+    background-color: #f5f580;
+    color:#096d21;
+}
+#r2:hover{
+    background-color: #AB6BF5;
+}
+
+.secTask{
+    display: inline-block;
+}
+.firstGeer,.secGeer{
+    margin: 40px;
+    position: relative;
+    width: 160px;
+    height: 160px;
+    display: inline-block;
+}
+.fGrey,.sGrey{
+    background-color: darkgray;
+    height: 160px;
+    width: 160px;
+    border-radius: 100%;
+    position: absolute;
+}
+.fWhiteBig,.sWhiteBig{
+    background-color: white;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+}
+.fWhiteSmall,.sWhiteSmall{
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}
+
+.fWhiteBig{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+#f1{position: absolute; top:-24px; left: 60px;}
+#f2{position: absolute; bottom:-24px; left: 60px;}
+#f3{position: absolute; top: 60px; left: -24px;}
+#f4{position: absolute; top: 60px; right: -24px;}
+#f5{position: absolute; top: 0px; left: 0px;}
+#f6{position: absolute; top: 0px; right: 0px;}
+#f7{position: absolute; bottom: 0px; left: 0px;}
+#f8{position: absolute; bottom: 0px; right: 0px;}
+
+.sWhiteBig{
+    position: absolute;
+    transform: translateY(50px) translateX(50px);
+}
+.sCont{
+    position: absolute;
+    width: 160px;
+    height: 160px;
+}
+#s1{transform: rotate(0deg);}
+#s2{transform: rotate(45deg);}
+#s3{transform: rotate(-45deg);}
+#s4{transform: rotate(90deg);}
+#s5{transform: rotate(-90deg);}
+#s6{transform: rotate(135deg);}
+#s7{transform: rotate(-135deg);}
+#s8{transform: rotate(180deg);}
