@@ -3,23 +3,6 @@ html,body{
     margin: 0;
     padding: 20px;
 }
-td{
-    height: 2vh;
-}
-#r1{
-    background-color: #808f8f;
-    color:#1227DE;
-}
-#r1:hover{
-    background-color: #F3D1BF;
-}
-#r2{
-    background-color: #f5f580;
-    color:#096d21;
-}
-#r2:hover{
-    background-color: #AB6BF5;
-}
 
 .secTask{
     display: inline-block;
