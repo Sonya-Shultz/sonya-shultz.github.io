@@ -1,0 +1,55 @@
+.myCell{
+    height: 7vmin;
+    width: 7vmin;
+}
+
+.secTask{
+    align-items: center;
+    margin-bottom: 20vmin;
+}
+#myTable{
+    width: max-content;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 1vmin;
+    background-color: silver;
+}
+#colorPick,#colorPick:focus{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    
+    height: 7vmin;
+    width: 7vmin;
+}
+#colorPick::-webkit-color-swatch{
+    border-radius: 0.5vmin;
+    border: none;
+    box-shadow: 3px 3px 5px rgb(103, 113, 113);
+}
+#colorPick::-moz-color-swatch{
+    border-radius: 0.5vmin;
+    border: none;
+    box-shadow: 3px 3px 5px rgb(103, 113, 113);
+}
+
+#secLeb{
+    margin-top: 10vmin;
+}
+
+.myCell{
+    border-radius: 1vmin;
+}
+
+.cellR{
+    background-color: rgb(164, 188, 193);
+}
+
+.cellL{
+    background-color: rgb(135, 161, 166);
+}

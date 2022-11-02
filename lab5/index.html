@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The 5th laboratory work on the subject 'Fundamentals of web technologies'">
+    <title>Шульц С.О. ІП-96 варіант 80(5,10,8)</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+    <link href="styletask2.css" rel="stylesheet">
+    <script src="scripttask2.js"></script>
+</head>
+<body class='body' id='body'>
+    <h1 class="frstLable">Завдання 1</h1>
+    <div class="firstTask">
+        <h2 id="ftH1">Основн форма:</h2>
+        <h2 id="ftH2">Дані з форми:</h2>
+    </div>
+    <div class="firstTask">
+        <div class="textForForm">
+            <h4>Ім'я:</h4>
+            <h4>Факультет:</h4>
+            <h4>Дата народження:</h4>
+            <h4>Адреса:</h4>
+            <h4>E-mail:</h4>
+        </div>
+        <form class="myForm" onsubmit="sendOrNot(this);return false">
+            <input class="myFormd" id="in1" type="text" oninput="checkagain()" onclick="checkagain()" placeholder="Прізвище І.П.">
+            <input class="myFormd" id="in2" type="text" oninput="checkagain()" onclick="checkagain()" placeholder="ХХХХ">
+            <input class="myFormd" id="in3" type="date" oninput="checkagain()" onclick="checkagain()">
+            <input class="myFormd" id="in4" type="text" oninput="checkagain()" onclick="checkagain()" placeholder="м.ХХХ">
+            <input class="myFormd" id="in5" type="email" oninput="checkagain()" onclick="checkagain()" placeholder="ХХХ@ХХХ.ХХХ">
+            <input class="myFormd" id="submitIn" type="submit">
+        </form>
+        <div class="endData">
+            <h4 class="dataFromForm">Ім'я:
+                <p class="dataFromConc" id="out1">-</p>
+            </h4>
+            <h4 class="dataFromForm">Факультет:
+                <p class="dataFromConc" id="out2">-</p>
+            </h4>
+            <h4 class="dataFromForm">Дата народження:
+                <p class="dataFromConc" id="out3">-</p>
+            </h4>
+            <h4 class="dataFromForm">Адреса:
+                <p class="dataFromConc" id="out4">-</p>
+            </h4>
+            <h4 class="dataFromForm">E-mail:
+                <p class="dataFromConc" id="out5">-</p>
+            </h4>
+        </div>
+    </div>
+    <h1 class="frstLable" id="secLeb">Завдання 2</h1>
+    <div class="secTask" id="secTask">
+        <table id="myTable">
+
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(201, 219, 222);
+    position: relative;
+}
+
+.frstLable{
+    text-align: center;
+    margin-top: 5vmin;
+}
+
+.myForm > input{
+    display: block;
+}
+
+.textForForm,.myForm{
+    flex: 1;
+}
+.textForForm{
+    text-align: right;
+    vertical-align: middle;
+    font-size: 2.5vmin;
+}
+.endData{
+    flex: 2; 
+    margin-left: 10vmin;
+    height: max-content;
+    width: max-content;
+}
+
+.dataFromConc{display: inline;}
+
+.dataFromForm{
+    font-weight:900;
+    font-size: 2.3vmin;
+    text-align: center;
+    color: rgb(103, 113, 113);
+}
+
+.dataFromConc{
+    font-weight: lighter;
+    font-size: 2vmin;
+    color: black;
+}
+
+.textForForm > h4, .myFormd, .dataFromForm{
+    height: 4vmin;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 1.5vmin;
+    border: 3px solid rgba(0, 0, 0, 0);
+}
+
+.myFormd{
+    box-shadow: inset 1px 1px 3px rgb(103, 113, 113);
+}
+
+#submitIn{
+    height: 7vmin;
+    width: 20vmin;
+    margin-left: -10vmin;
+    margin-top: 5vmin;
+    box-shadow: 1px 1px 3px rgb(103, 113, 113);
+}
+
+.firstTask{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10vmin;
+    padding-right: 10vmin;
+}
+#ftH1{flex:1; text-align: center; 
+    color: rgb(103, 113, 113);}
+#ftH2{flex:1; text-align: center; margin-left: 10vmin; 
+    color: rgb(103, 113, 113);}
+
+.wrongData{
+    border: 3px solid rgb(169, 27, 27);
+    box-shadow: inset 3px 3px 4px rgb(103, 113, 113);
+}
+
+input:focus{
+    outline: none;
+    box-shadow: 1px 1px 3px rgb(103, 113, 113);
+}
+
+#submitIn:hover{
+    box-shadow: inset 1px 1px 3px rgb(103, 113, 113);
+}
+
+.textForForm, .myForm, .endData{
+    border: 3px solid silver;
+    border-radius: 1vmin;
+    padding: 5vmin;
+    background-color: rgb(164, 188, 193);
+}
+
+.textForForm{border-right: none; padding-right: 0;}
+.myForm{border-left: none; padding-left: 0;}
