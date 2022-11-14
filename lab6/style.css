@@ -1,0 +1,127 @@
+:root{
+ --c1: rgb(114, 119, 179);
+ --c2: rgb(155, 199, 199);
+ --c3: rgb(176, 200, 131);
+ --sh: rgb(70, 83, 47);
+ --bk: rgb(208, 215, 212);
+ --wh: rgb(230, 239, 222);
+}
+
+html{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: var(--c1);
+    background: linear-gradient(
+        to right,
+        var(--c1),var(--c2),var(--c3),var(--c2),var(--c1)
+    );
+    background-size: 200%;
+    animation: backRot 10s linear infinite;
+}
+
+@keyframes backRot {
+    from{ background-position: 0% center;}
+    to{background-position: -200% center;}
+}
+
+#Downloadbtn{
+    width: 40%;
+    height: 7vh;
+    border-radius: 1vmin;
+    border: 5px solid var(--wh);
+    box-shadow: 1px 1px 1px var(--sh);
+    background-color: var(--c3);
+    font-size: large;
+    font-weight: 800;
+    color: var(--wh)
+}
+
+#Downloadbtn:hover{
+    border-color: var(--c3);
+    background-color: var(--wh);
+    color: var(--c3)
+}
+
+body{
+    padding: 2vmin;
+    margin: 0;
+    height: 100%;
+}
+
+#resultArea{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5px 5px;
+}
+
+.myHuman, .myHuman>p, .myHuman>img, .upperDiv{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.upperDiv{border: 5px solid var(--c3);}
+
+.myHuman, .upperDiv{
+    background-color: var(--bk);
+    border-radius: 1vmin;
+    padding: 1.5vmin;
+    margin: 0.5vmin;
+    box-shadow: 3px 3px 7px var(--sh);
+}
+
+.myEmail{
+    overflow-x: scroll;
+}
+
+.myHuman{
+    padding: 3vmin;
+    overflow-x: hidden;
+    border-radius: 1vmin;
+    border: 5px solid var(--bk);
+    background-color: var(--c3);
+    position: relative;
+}
+
+.myHuman:hover, .myHuman:hover>img{
+    border: 5px solid var(--c3);
+    background-color: var(--bk);
+}
+
+.myHuman>img{
+    border-radius: 1vmin;
+    border: 5px solid var(--wh);
+    width: calc(100% - 6vmin);
+    box-shadow: 1px 1px 3px var(--sh);
+}
+
+.h1text, #resultText{
+    color: var(--sh);
+}
+.ptext{
+    color: rgb(92, 107, 65);
+}
+.myHuman>p{
+    font-size: large;
+    color: var(--sh);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+}
+  
+::-webkit-scrollbar-track {
+    background: var(--c3);
+    border-radius: 1vmin;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: rgb(217, 226, 209);
+    border-radius: 1vmin;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--wh);
+}
