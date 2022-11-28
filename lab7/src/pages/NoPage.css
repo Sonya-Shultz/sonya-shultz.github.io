@@ -1,0 +1,13 @@
+.noPage, .noPage >h1, .home{
+    text-align: center;
+    width: fit-content;
+    position: relative;
+}
+
+.noPage, .home{
+    margin: auto;
+}
+
+.home{
+    margin-top: 2vmin;
+}

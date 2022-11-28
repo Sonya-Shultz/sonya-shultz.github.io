@@ -1,0 +1,32 @@
+#flink, #slink{
+    border-radius: 1vmin;
+    background-color: rgb(166, 223, 166);
+    width: fit-content;
+    margin: 1vmin 3vmin 1vmin 3vmin;
+    box-shadow: 3px 3px 4px rgb(78, 75, 75);
+    padding: 1.5vmin;
+    position: relative;
+    color: rgb(2, 18, 1);
+}
+
+.upperLink{
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+    font-size: large;
+    width: 100%;
+}
+
+#flink:hover, #slink:hover{
+    color: rgb(13, 61, 13);
+}
+
+.routerUl{
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    box-shadow:0px 5px 7px rgb(78, 75, 75);
+}
