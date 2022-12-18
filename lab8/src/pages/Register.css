@@ -1,0 +1,35 @@
+.register{
+    text-align: center;
+    position: relative;
+    padding: 2vmin;
+}
+
+.register>form{
+    width: 60%;
+    margin: auto;
+    min-width: max-content;
+    text-align: center;
+    position: relative;
+    border-radius: 4vmin;
+    padding: 4vmin 2vmin;
+    background-color: rgb(170, 201, 194);
+    grid-template-columns: 2fr 5fr;
+}
+
+@media  screen and (max-width: 480px) {
+    .register>form{
+        grid-template-columns: 1fr 2fr;
+    }
+}
+
+.register>h2{
+    width: calc(100% - 2px);
+    background-color: rgb(170, 201, 194);
+    padding: 2vmin;
+    border: 1px solid transparent;
+    border-top: 5px solid rgb(155, 136, 167);
+    border-bottom: 5px solid rgb(155, 136, 167);
+    color: rgb(77, 67, 82);
+    margin-left: -2vmin;
+    cursor: default;
+}

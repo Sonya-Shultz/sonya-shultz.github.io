@@ -1,0 +1,43 @@
+.userData{
+    background-color: rgb(170, 201, 194);
+    width: max-content;
+    border-radius: 4vmin;
+    padding: 2vmin;
+    margin: 1vmin;
+}
+
+.userData>form{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.userData>form>p{
+    text-align: right;
+}
+
+.userData>form>p, .userData>form>input{
+    height: 4vh;
+    padding: 1vmin;
+    margin: 1vmin;
+    border-radius: 1vmin;
+}
+
+.userData>form>input{
+    margin: 1vmin;
+    padding: 1vmin;
+    height: 2vh;
+    border-radius: 1vmin;
+    background-color: rgb(215, 234, 228);
+    border: 5px solid rgb(155, 136, 167);
+    box-shadow: inset 2px 2px 3px rgb(77, 67, 82);
+}
+
+.userData>form>input:disabled{
+    background-color: rgb(215, 234, 228);
+    border: 5px solid rgb(148, 179, 172);
+    box-shadow: inset 1px 1px 3px rgb(77, 67, 82);
+}
+
+.userData>form>input:invalid {
+    border: 5px solid rgb(185, 92, 92);
+}

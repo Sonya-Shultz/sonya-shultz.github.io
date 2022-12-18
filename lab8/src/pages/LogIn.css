@@ -1,0 +1,36 @@
+.login{
+    align-self: center;
+    width: max-content;
+    margin: auto;
+    margin-top: 5vmin;
+    background-color: rgb(170, 201, 194);
+    border-radius: 5vmin;
+    padding: 2vmin;
+    width: 50%;
+    min-width: max-content;
+    text-align: center;
+    position: relative;
+}
+.form{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    position: relative;
+}
+.login>h3{
+    text-align: center;
+    width: 100%;
+}
+.form>p{
+    text-align: right;
+    margin: 1vmin;
+    padding: 1vmin;
+    height: 2vh;
+}
+
+.login>a{
+    margin-top: 3vh;
+    text-align: center;
+    width: 100%;
+    font-size: small;
+}
+

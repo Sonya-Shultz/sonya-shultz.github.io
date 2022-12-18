@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.form>input{
+  margin: 1vmin;
+  padding: 1vmin;
+  height: 2vh;
+  border-radius: 1vmin;
+  background-color: rgb(215, 234, 228);
+  border: 5px solid rgb(155, 136, 167);
+  box-shadow: inset 2px 2px 3px rgb(77, 67, 82);
+}
+input:focus{
+  outline: none;
+  box-shadow: 0px 0px 5px rgb(197, 255, 239), inset 1px 1px 3px rgb(77, 67, 82);
+}
+
+#submit, .userData>button{
+  height: 5vh;
+  border-radius: 1vmin;
+  margin-top: 5vh;
+  margin-left: 20%;
+  width: 60%;
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  border: 5px solid rgb(215, 234, 228);
+  
+  box-shadow: 1px 1px 3px rgb(77, 67, 82);
+  background-color: rgb(155, 136, 167);
+  color: rgb(215, 234, 228);
+  font-weight: bolder;
+  font-size: medium;
+}
+
+#submit:hover, .userData>button:hover{
+  color: rgb(155, 136, 167);
+  border: 5px solid rgb(155, 136, 167);
+  background-color: rgb(215, 234, 228);
+  cursor: pointer;
+}
+
+input:invalid {
+  border: 5px solid rgb(185, 92, 92);
+}
+
+#root{
+  position: relative;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  width: 100%;
+}

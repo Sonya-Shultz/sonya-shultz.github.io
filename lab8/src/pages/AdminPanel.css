@@ -1,0 +1,57 @@
+.adminPanel{
+    padding:2vmin;
+    text-align: center;
+    position: relative;
+}
+
+.usersList{
+    text-align: center;
+    align-items: center;
+    display: grid;
+    grid-column-gap: 1vmin;
+    grid-template-columns: repeat(2,1fr);
+}
+
+@media screen and (max-width: 850px){
+    .usersList{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media screen and (min-width: 850px) and (max-width: 1270px){
+    .usersList{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (min-width: 1270px){
+    .usersList{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+.usersList>.userData{
+    margin: auto;
+    margin-top: 2vmin;
+}
+
+.link{
+    display: block;
+    width: calc(100% - 2px);
+    background-color: rgb(170, 201, 194);
+    padding: 2vmin;
+    border: 1px solid transparent;
+    border-top: 5px solid rgb(155, 136, 167);
+    border-bottom: 5px solid rgb(155, 136, 167);
+    color: rgb(77, 67, 82);
+    margin-top: 2vmin;
+    margin-bottom: 5vmin;
+    margin-left: -2vmin;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.link:hover{
+    cursor: pointer;
+    background-color: rgb(155, 136, 167);
+    border-top: 5px solid rgb(170, 201, 194);
+    border-bottom: 5px solid rgb(170, 201, 194);
+    color: rgb(215, 234, 228);
+}

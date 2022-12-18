@@ -1,0 +1,31 @@
+.data{
+    position: relative;
+    text-align: center;
+}
+.data>.userData{
+    margin: auto;
+}
+.data>h2,.data>button{
+    background-color: rgb(170, 201, 194);
+    padding: 2vmin;
+    border: 1px solid transparent;
+    border-top: 5px solid rgb(155, 136, 167);
+    border-bottom: 5px solid rgb(155, 136, 167);
+    color: rgb(77, 67, 82);
+}
+.userData>button{
+    margin: 0;
+    margin-top: 2vmin;
+}
+.data>button{
+    margin-top: 2vmin;
+    padding: 1vmin;
+    width: 100%;
+    font-weight: bolder;
+}
+.data>button:hover{
+    cursor: pointer;
+    background-color: rgb(155, 136, 167);
+    border-top: 5px solid rgb(170, 201, 194);
+    border-bottom: 5px solid rgb(170, 201, 194);
+}

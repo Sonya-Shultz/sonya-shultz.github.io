@@ -1,0 +1,43 @@
+.wrongAcsess{
+    position: relative;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.wrongAcsess>h1{
+    width: calc(100% - 2px);
+    background-color: rgb(170, 201, 194);
+    border: 1px solid transparent;
+    border-top: 5px solid rgb(155, 136, 167);
+    border-bottom: 5px solid rgb(155, 136, 167);
+    color: rgb(77, 67, 82);
+    padding: 2vmin 0;
+    cursor: default;
+}
+.wrLink{
+    display: block;
+    padding: 1vmin 0;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: 2vmin 0;
+    cursor: default;
+    margin-bottom: 1vmin;
+    
+    color: rgb(180, 216, 208);
+
+    background-color: rgb(155, 136, 167);
+    border-top: 5px solid rgb(170, 201, 194);
+    border-bottom: 5px solid rgb(170, 201, 194);
+}
+
+.wrLink:hover{
+    cursor: pointer;
+    background-color: rgb(170, 201, 194);
+    border-top: 5px solid rgb(155, 136, 167);
+    border-bottom: 5px solid rgb(155, 136, 167);
+    
+    color: rgb(77, 67, 82);
+
+}
